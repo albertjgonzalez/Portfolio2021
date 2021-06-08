@@ -42,7 +42,8 @@ export default function Navigation({ pathname }) {
   return (
     <Navbar fixed="top" shadow>
       <Container>
-        <Navbar.Brand>
+        My page
+        {/* <Navbar.Brand>
           <Navbar.Item
             onClick={() => dispatch(push(auth ? '/home' : '/'))}
             aria-label="main navigation"
@@ -154,7 +155,7 @@ export default function Navigation({ pathname }) {
             </Navbar.End>
           </Navbar.Menu>
         )}
-        <UserDropdown open={open} closeDropdown={closeDropdown} />
+        <UserDropdown open={open} closeDropdown={closeDropdown} /> */}
       </Container>
     </Navbar>
   );

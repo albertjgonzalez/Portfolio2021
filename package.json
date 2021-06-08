@@ -1,7 +1,7 @@
 {
   "name": "mern-boilerplate",
   "version": "1.0.0",
-  "description": "A full MERN stack boilerplate",
+  "description": "portfolio2021",
   "main": "server/index.js",
   "scripts": {
     "build": "./scripts/build-prd.sh",
@@ -19,16 +19,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djizco/mern-boilerplate.git"
+    "url": "git+https://github.com/albertjgonzalez/Portfolio2021"
   },
   "author": {
     "name": "Federico Rojas",
-    "email": "djizco@yahoo.com",
-    "url": "https://github.com/djizco"
+    "email": "ajgonzalez1114@gmail.com",
+    "url": "https://github.com/albertjgonzalez"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/djizco/mern-boilerplate/issues"
+    "url": "https://github.com/albertjgonzalez/Portfolio2021"
   },
   "keywords": [
     "react",
@@ -43,7 +43,7 @@
     "jest",
     "enzyme"
   ],
-  "homepage": "https://github.com/djizco/mern-boilerplate#readme",
+  "homepage": "https://github.com/albertjgonzalez/Portfolio2021",
   "engines": {
     "node": ">=10.0.0"
   },
