@@ -6,6 +6,7 @@ import R from 'ramda';
 import Section from 'react-bulma-companion/lib/Section';
 import Container from 'react-bulma-companion/lib/Container';
 import Title from 'react-bulma-companion/lib/Title';
+import StartMenu from './../../organisms/StartMenu'
 
 export default function WelcomePage() {
   const dispatch = useDispatch();
@@ -18,14 +19,18 @@ export default function WelcomePage() {
   }, []);
 
   return (
-    <div className="welcome-page page">
-      <Section>
-        <Container>
-          <Title size="1">
-            please work
-          </Title>
-        </Container>
-      </Section>
+    <div style={{
+    height:'100vh'}}>
+        <containter style={{
+          display: "flex",
+          height:'100%',
+          width:'100%',
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor:'black'
+        }}>
+            <StartMenu />
+        </containter>
     </div>
   );
 }

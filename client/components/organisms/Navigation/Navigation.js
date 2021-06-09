@@ -42,7 +42,6 @@ export default function Navigation({ pathname }) {
   return (
     <Navbar fixed="top" shadow>
       <Container>
-        My page
         {/* <Navbar.Brand>
           <Navbar.Item
             onClick={() => dispatch(push(auth ? '/home' : '/'))}

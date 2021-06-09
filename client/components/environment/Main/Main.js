@@ -35,7 +35,6 @@ export default function Main({ location }) {
   return !loading && (
     <div>
       <ReactNotification />
-      <Navigation pathname={location.pathname} />
       <div className="main">
         <Switch>
           <Route exact path="/" component={WelcomePage} />
@@ -47,7 +46,7 @@ export default function Main({ location }) {
           <Route path="*" component={LostPage} />
         </Switch>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
